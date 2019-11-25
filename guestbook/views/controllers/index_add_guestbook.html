@@ -1,0 +1,35 @@
+{$menu}
+<h2 class="text-header">
+    {text key='guestbook+head_guestbook_new'}
+</h2>
+{form name='add-guestbook'}
+<table class="ow_table_1 ow_form ow_stdmargin">
+    <tr class="ow_alt1 ow_tr_last">
+        <td class="ow_label">{label name='name'}</td>
+        <td class="ow_value">
+            {input name='name'}
+            <br>
+            {error name='name'}
+        </td>
+    </tr>
+    <tr class="ow_alt ow_tr_last">
+        <td class="ow_label">{label name='surname'}</td>
+        <td class="ow_value">
+            {input name='surname'}
+            <br>
+            {error name='surname'}
+        </td>
+    </tr>
+    <tr class="ow_alt ow_tr_last">
+        <td class="ow_label">{label name='avatar'}</td>
+        <td class="ow_value">
+            {input name='avatar'}
+            <br>
+            {error name='avatar'}
+        </td>
+    </tr>
+</table>
+<div class="clearfix ow_stdmargin ow_submit ow_btn_delimiter">
+    <div class="ow_right">{submit name="go" class="ow_button ow_ic_save"}</div>
+</div>
+{/form}

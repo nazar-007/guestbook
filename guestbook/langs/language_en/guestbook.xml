@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="guestbook" label="Guest Book" language_tag="en" language_label="English">
+    <key name="menu_label"><value>Guest Book</value></key>
+    <key name="id_label"><value>Id</value></key>
+    <key name="name_label"><value>Name</value></key>
+    <key name="surname_label"><value>Surname</value></key>
+    <key name="avatar_label"><value>Avatar</value></key>
+    <key name="create_date_label"><value>Create Date</value></key>
+    <key name="delete_button"><value>Delete</value></key>
+    <key name="submit_button"><value>Go</value></key>
+    <key name="view_tab"><value>View Guest Book</value></key>
+    <key name="add_tab"><value>Add Guest Book</value></key>
+    <key name="head_guestbook_list"><value>List of Guest Books</value></key>
+    <key name="head_guestbook_new"><value>Add new Guest Book</value></key>
+    <key name="no_data"><value>No data</value></key>
+</prefix>

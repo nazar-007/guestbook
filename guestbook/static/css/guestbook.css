@@ -1,0 +1,13 @@
+.btn-delete {
+    background-color: #db3925;
+    padding: 7px;
+    cursor: pointer;
+}
+.avatar {
+    width: 100px;
+}
+.text-header {
+    text-align: center;
+    color: #0c1115;
+    margin-bottom: 15px;
+}

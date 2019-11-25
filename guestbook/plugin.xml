@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin>
+    <name>Гостевая книга</name>
+    <key>guestbook</key>
+    <description>Это гостевая книга с возможностью добавления, удаления и просмотра гостей.</description>
+    <author>Nazar Bakytov</author>
+    <authorEmail>nazar.attention@gmail.com</authorEmail>
+    <authorUrl>https://vk.com/nazar_bakytov</authorUrl>
+    <developerKey>e547ebcf734341ec11911209d93a1054</developerKey>
+    <build>1</build>
+    <copyright>(C) 2009 Oxwall Foundation. All rights reserved.</copyright>
+    <license>The BSD License</license>
+    <licenseUrl>http://www.opensource.org/licenses/bsd-license.php</licenseUrl>
+</plugin>
