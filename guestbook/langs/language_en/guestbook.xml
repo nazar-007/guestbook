@@ -13,4 +13,5 @@
     <key name="head_guestbook_list"><value>List of Guest Books</value></key>
     <key name="head_guestbook_new"><value>Add new Guest Book</value></key>
     <key name="no_data"><value>No data</value></key>
+    <key name="avatar_error_msg"><value>Avatar required</value></key>
 </prefix>

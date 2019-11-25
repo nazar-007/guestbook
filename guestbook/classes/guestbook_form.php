@@ -53,6 +53,22 @@ class GUESTBOOK_CLASS_GuestbookForm extends Form
 }
 
 class AvatarValidator extends OW_Validator {
+    public function __construct()
+    {
+        $this->errorMessage = OW::getLanguage()->text('guestbook', 'avatar_error_msg');
+    }
+
+    public function getJsValidator()
+    {
+        return "{
+            validate : function( value ){
+                if (!value) {
+                    throw " . json_encode($this->errorMessage) . ";
+                }
+            }
+        }";
+    }
+
     function isValid($value)
     {
         return !empty($_FILES['avatar']) &&
